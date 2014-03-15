@@ -1,5 +1,4 @@
 Changes
-lib/Context.pm
 lib/Test/WriteVariants.pm
 lib/Test/WriteVariants/Context.pm
 Makefile.PL
