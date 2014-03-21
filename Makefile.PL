@@ -14,7 +14,7 @@ my %BUILD_DEPS = (
 
 my %RUN_DEPS = (
     'Data::Tumbler' => '0.002',
-    'Module::Pluggable::Object' => '4.1',
+    'Module::Pluggable::Object' => '4.9',
 );
 
 my %OPT_RUN_DEPS = (
@@ -23,8 +23,15 @@ my %OPT_RUN_DEPS = (
 my %META_BITS = (
   resources => {
     homepage => 'https://metacpan.org/release/Test-WriteVariants',
-    repository => 'git@github.com:timbunce/Test-WriteVariants.git',
-    bugtracker => 'https://github.com/timbunce/Test-WriteVariants/issues',
+    repository => {
+        url  => 'git@github.com:perl5-utils/Test-WriteVariants.git',
+        web  => 'https://github.com/perl5-utils/Test-WriteVariants',
+        type => 'git',
+    },
+    bugtracker  => {
+        web    => 'http://rt.cpan.org/Public/Dist/Display.html?Name=Test-WriteVariants',
+        mailto => 'test-writevariants@example.com',
+    },
   },
 );
 

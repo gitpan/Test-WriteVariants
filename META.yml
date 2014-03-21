@@ -3,25 +3,24 @@ abstract: 'Dynamic generation of tests in nested combinations of contexts'
 author:
   - 'Tim Bunce'
 build_requires:
-  Test::Directory: 0.041
-  Test::More: 0.88
+  Test::Directory: '0.041'
+  Test::More: '0.88'
 configure_requires:
-  ExtUtils::MakeMaker: 0
+  ExtUtils::MakeMaker: '0'
 dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.132830'
+generated_by: 'ExtUtils::MakeMaker version 6.92, CPAN::Meta::Converter version 2.140640'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  version: '1.4'
 name: Test-WriteVariants
 no_index:
   directory:
     - t
     - inc
 requires:
-  Data::Tumbler: 0.002
-  Module::Pluggable::Object: 4.1
+  Data::Tumbler: '0.002'
+  Module::Pluggable::Object: '4.9'
 resources:
-  bugtracker: https://github.com/timbunce/Test-WriteVariants/issues
   homepage: https://metacpan.org/release/Test-WriteVariants
-version: 0.004
+version: '0.005'

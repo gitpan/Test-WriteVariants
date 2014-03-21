@@ -4,7 +4,7 @@
       "Tim Bunce"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.132830",
+   "generated_by" : "ExtUtils::MakeMaker version 6.92, CPAN::Meta::Converter version 2.140640",
    "license" : [
       "perl_5"
    ],
@@ -34,16 +34,13 @@
       "runtime" : {
          "requires" : {
             "Data::Tumbler" : "0.002",
-            "Module::Pluggable::Object" : "4.1"
+            "Module::Pluggable::Object" : "4.9"
          }
       }
    },
    "release_status" : "stable",
    "resources" : {
-      "bugtracker" : {
-         "web" : "https://github.com/timbunce/Test-WriteVariants/issues"
-      },
       "homepage" : "https://metacpan.org/release/Test-WriteVariants"
    },
-   "version" : "0.004"
+   "version" : "0.005"
 }
