@@ -4,7 +4,7 @@
       "Tim Bunce"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.92, CPAN::Meta::Converter version 2.140640",
+   "generated_by" : "ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.132830",
    "license" : [
       "perl_5"
    ],
@@ -42,5 +42,5 @@
    "resources" : {
       "homepage" : "https://metacpan.org/release/Test-WriteVariants"
    },
-   "version" : "0.006"
+   "version" : "0.007"
 }
