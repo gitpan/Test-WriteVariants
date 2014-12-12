@@ -1,5 +1,6 @@
 ARTISTIC-1.0
 Changes
+GPL-1
 GPL-2.0
 lib/Test/WriteVariants.pm
 lib/Test/WriteVariants/Context.pm
