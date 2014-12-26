@@ -24,10 +24,11 @@ recommends:
 requires:
   Data::Tumbler: '0.002'
   Module::Pluggable::Object: '4.9'
+  base: '0'
   perl: v5.8.1
 resources:
   bugtracker: http://rt.cpan.org/Public/Dist/Display.html?Name=Test-WriteVariants
   homepage: https://metacpan.org/release/Test-WriteVariants
   license: http://dev.perl.org/licenses/
   repository: https://github.com/perl5-utils/Test-WriteVariants
-version: '0.009'
+version: '0.010'

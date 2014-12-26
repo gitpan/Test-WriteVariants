@@ -48,6 +48,7 @@
          "requires" : {
             "Data::Tumbler" : "0.002",
             "Module::Pluggable::Object" : "4.9",
+            "base" : "0",
             "perl" : "v5.8.1"
          }
       },
@@ -73,5 +74,5 @@
          "web" : "https://github.com/perl5-utils/Test-WriteVariants"
       }
    },
-   "version" : "0.009"
+   "version" : "0.010"
 }
